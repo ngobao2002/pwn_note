@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "f3f88070006f2cd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1b32d1c891ba522",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0377a2ff8f105091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Platforms/pwnable.tw/start/Start.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Start"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9e9bfc8133bcf9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6194ce625dcc0a99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc1003b19c4c9877",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8244c943f19fe8a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d6922a087b6455a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c97238200f98876b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f5ec2a172565df9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "449118d3f25a0d52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01_Platforms/pwnable.tw/start/Start.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Start"
+            }
+          },
+          {
+            "id": "50166e711d6f78b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01_Platforms/pwnable.tw/start/Start.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Start"
+            }
+          },
+          {
+            "id": "12033fdc53726e67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "263b2c5c2b8d1d6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01_Platforms/pwnable.tw/start/Start.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Start"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0377a2ff8f105091",
+  "lastOpenFiles": [
+    "01_Platforms/pwnable.tw/start/Start.md",
+    "01_Platforms/pwnable.tw/start",
+    "Untitled",
+    "00_Pwn_Fundamentals/30_Kien_Thuc_Nen_Tang",
+    "00_Pwn_Fundamentals/20_Cong_Cu_Thiet_Yeu",
+    "00_Pwn_Fundamentals/10_Setup_Moi_Truong",
+    "01_Platforms/pwnable.tw",
+    "Welcome.md",
+    "02_Techniques",
+    "01_Platforms",
+    "00_Pwn_Fundamentals"
+  ]
+}
