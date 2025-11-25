@@ -1,0 +1,3 @@
+Còn được gọi là Data Execution Prevention (DEP). Cơ chế này đánh dấu vùng nhớ của stack là không thể thực thi.
+- **Tác động:** Nó làm cho kỹ thuật kinh điển "ret2shellcode" (ghi shellcode lên stack và nhảy đến nó) trở nên vô dụng.
+- **Sự tiến hóa của tấn công:** Sự ra đời của NX đã buộc các nhà nghiên cứu phải phát minh ra Return-Oriented Programming (ROP). Thay vì tiêm mã mới, ROP tái sử dụng các đoạn mã đã có sẵn trong chương trình (gọi là "gadget") để thực hiện các hành động mong muốn.

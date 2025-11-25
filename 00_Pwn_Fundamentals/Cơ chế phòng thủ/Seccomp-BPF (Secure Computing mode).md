@@ -1,0 +1,3 @@
+Một tính năng của kernel Linux cho phép một tiến trình hạn chế các syscall mà nó và các tiến trình con của nó có thể thực hiện.
+- **Tác động:** Đây là một trong những cơ chế phòng thủ mạnh nhất. Một chính sách seccomp chặt chẽ có thể cấm các syscall hữu ích cho việc lấy shell như `execve`.
+- **Sự tiến hóa của tấn công:** Khi `execve` bị cấm, kẻ tấn công phải sáng tạo hơn. Họ phải sử dụng các syscall được phép, thường là một chuỗi `open`/`read`/`write`, để mở file cờ (`flag`), đọc nội dung của nó, và ghi ra `stdout`. Kỹ thuật này được gọi là "ORW shellcode".

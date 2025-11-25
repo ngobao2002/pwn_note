@@ -1,0 +1,3 @@
+Đây là một dạng mở rộng của ASLR, áp dụng cho chính mã của file thực thi.
+- **Tác động:** Không chỉ stack/heap/libc, mà cả địa chỉ của các hàm và dữ liệu trong section `.text` và `.data` của chương trình cũng bị ngẫu nhiên hóa.
+- **Sự tiến hóa của tấn công:** Khi PIE được bật, kẻ tấn công không chỉ cần leak địa chỉ libc mà còn phải leak một địa chỉ thuộc về chính file nhị phân để tính toán địa chỉ cơ sở của nó. Điều này làm cho việc xây dựng chuỗi ROP trở nên khó khăn hơn vì địa chỉ của các gadget cũng bị ngẫu nhiên hóa.

@@ -1,0 +1,1 @@
+https://p0pcycle.com/2025/10/16/reverse-engineering-structs-for-beginners/

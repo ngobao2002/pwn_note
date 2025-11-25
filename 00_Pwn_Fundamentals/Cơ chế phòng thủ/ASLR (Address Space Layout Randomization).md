@@ -1,0 +1,3 @@
+Cơ chế này sắp xếp ngẫu nhiên vị trí của các vùng nhớ chính (stack, heap, và các thư viện đã được nạp) mỗi khi chương trình được chạy.
+- **Tác động:** Kẻ tấn công không còn biết trước địa chỉ của stack, heap, hay các hàm trong libc (như `system`).
+- **Sự tiến hóa của tấn công:** ASLR buộc kẻ tấn công phải tìm ra một "lỗ hổng rò rỉ thông tin" (information leak vulnerability) trước. Bằng cách lợi dụng một lỗi nào đó (ví dụ: format string, UAF) để đọc một địa chỉ từ bộ nhớ (ví dụ: một địa chỉ trong GOT), kẻ tấn công có thể tính toán ra địa chỉ cơ sở (base address) của libc và từ đó suy ra địa chỉ của mọi hàm khác.
